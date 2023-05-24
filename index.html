@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/89618d2279.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <h1>
+        Go ToDoList The Moon
+    </h1>
+
+    <form id="addTaskForm">
+        <input type="text" name="" id="taskTitleInput">
+        <button type="submit">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+    </form>
+
+    <div>
+
+    </div>
+
+    <ul id="taskList">
+        <li>
+            <input type="checkbox" id="taskDoneCheckbox_1">
+            <label for="taskDoneCheckbox_1">
+                <span>みそきん買う</span>
+                <span class="hidden">[完了]</span>
+                <button>
+                    <i class="fa-solid fa-trash"></i>
+                </button>
+            </label>
+        </li>
+    </ul>
+
+</body>
+
+<style>
+    h1 {
+        background-color: rgb(183, 160, 223);
+    }
+
+    span.done {
+        text-decoration: line-through;
+        color: #afacac;
+    }
+
+    span.hidden {
+        display: none;
+    }
+</style>
+
+<script src="script.js"></script>
+
+</html>
